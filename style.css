@@ -268,7 +268,8 @@ footer .links{
 @media (max-width:450px) {
     .hero-container{
         padding: 20px;
-        height: 500px;
+        height: 100vh;
+        background-image: url('images/bg-header-mobile.png');
         margin-bottom: 100px;
     }
     .logo{
@@ -365,12 +366,4 @@ footer .links{
     .footer .links{
         width: 50%;
     }
-    
-
-
-    
-
-
-
-    
 }
