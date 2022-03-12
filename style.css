@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+
+p{
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 10px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*-- ------------------start Landing page------------------ --*/
+
+.hero-container {
+    background-image: url('images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.logo {
+    width: 130px;
+    margin-bottom: 5rem;
+}
+
+.hero-container h1 {
+    font-size: 1.88rem;
+    width: 33.125rem;
+
+}
+
+.hero-container p {
+    width: 33.125rem;
+    height: fit-content;
+}
+
+.btn-container {
+    width: 90%;
+    height: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.btn {
+    width: 220px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    margin: 10px 10px;
+    font-size: 18px;
+    transition: 100ms linear;
+}
+.btn-ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: hsla(171, 66%, 44%,0.5) 0px 6px 12px -2px, hsla(171, 66%, 44%, 0.5) 0px 3px 7px -3px;
+}
+
+.btn-ios:hover{
+    border-bottom:  hsl(172, 66%, 24%) solid 3px;
+}
+
+.btn-ios:active {
+    background-color: hsl(172, 64%, 20%);
+}
+
+.btn-mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: hsla(233, 100%, 69%,0.5) 0px 6px 12px -2px, hsla(233, 100%, 69%, 0.5) 0px 3px 7px -3px;
+}
+
+.btn-mac:hover{
+    border-bottom: 3px solid hsl(233, 49%, 36%);
+
+}
+
+.btn-mac:active {
+    background-color: hsl(233, 44%, 22%);
+}
+/*-- ------------------End Landing page------------------ --*/
+
+
+/*-- ------------------End Keep track of your snippets section------------------ --*/
+.keep-track-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.first-section {
+    width: 50%;
+    margin-bottom:100px ;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.second-section img{
+    margin-left: -200px;
+    margin-right: 80px;
+    width: 800px;
+}
+
+.track-text-container {
+    width: 30%;
+    margin-top: -40px;
+}
+
+.track-text-container-item {
+    margin-bottom: 50px;
+}
+
+
+/*-- ------------------End Keep track of your snippets section------------------ --*/
+
+/*-- ------------------start Access Clipboard anywhere section------------------ --*/
+.access-clipboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: 100px 0;
+}
+.access-clipboard-container div{
+    margin-bottom: 60px;
+    width: 50%;
+}
+/*-- ------------------End Access Clipboard anywhere section------------------ --*/
+
+/*-- ------------------Start Supercharge your workflow section------------------ --*/
+.supercharge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 80px 0;
+    flex-direction: column;
+}
+
+.supercharger-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+
+    
+}
+
+.supercharger-text {
+    width: 25%;
+}
+
+.supercharger-text img {
+    margin-bottom: 50px;
+}
+
+
+/*-- ------------------End Supercharge your workflow section------------------ --*/
+
+
+/*-- ------------------Start Logos section------------------ --*/
+.logos-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.no-bg {
+    background-image: none;
+    margin-top: -50px;
+    margin-bottom: -100px;
+}
+/*-- ------------------End Logos section------------------ --*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 30px;
+    background-color: #eee;
+    width: 100%;
+}
+footer .footer-item{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.center div{
+    margin: 0 auto;
+    
+}
+
+
+.center div a{
+    display: block;
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    margin: 2px auto;    
+    width: 100px;
+}
+a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+footer .center{
+    width: 50%;
+    flex-wrap: wrap;
+
+}
+
+
+footer .logo{
+    width: 80px;
+    margin: auto 0 auto -10px ;
+}
+
+
+footer .links{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+@media (max-width:450px) {
+    .hero-container{
+        padding: 20px;
+        height: 500px;
+        margin-bottom: 100px;
+    }
+    .logo{
+        width: 100px;
+        margin-top: 100px;
+    
+    }
+    
+    .hero-container h1 {
+        font-size: 1.88rem;
+        width: 100%;
+    }
+    
+    .hero-container p {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .btn {
+        width: 90%;
+    }
+
+    .keep-track-container{
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .first-section {
+        width: 100%;
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .second-section img {
+        width: 100%;
+        padding: 0 20px;
+        margin: auto;
+    }
+
+    .track-text-container {
+        text-align: center;
+        width: 100%;
+        margin: 60px 0 0;
+    }
+    .access-clipboard-container{
+        margin-bottom: -50px;
+    }
+
+    .access-clipboard-container div {
+        width: 100%;
+    }
+    .access-clipboard-container img {
+        width: 100%;
+        padding: 0 20px;
+        
+    }
+    .supercharger-text-container {
+        flex-direction: column;
+    }
+    .supercharger-text{
+        width: 100%;
+        margin: 60px 0 0;
+        padding: 0 20px;
+
+    }
+    .logos-container {
+        flex-direction: column;
+    }
+    .logos-container img{
+        margin: 20px auto;
+    }
+    
+    
+    footer {
+        flex-direction: column;
+    }
+    
+    footer .footer-item{
+        margin: 20px auto;
+
+    }
+    .center div a {
+        
+        margin: 10px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .footer .links{
+        width: 50%;
+    }
+    
+
+
+    
+
+
+
+    
+}
