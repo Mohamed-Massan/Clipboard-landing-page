@@ -271,6 +271,7 @@ footer .links{
         height: 100vh;
         width: 100vw;
         background-image: url('images/bg-header-mobile.png');
+        background-size: 100%;
         margin-bottom: 100px;
     }
     .logo{
