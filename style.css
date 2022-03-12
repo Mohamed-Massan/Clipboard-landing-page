@@ -272,7 +272,7 @@ footer .links{
         width: 100vw;
         background-image: url('images/bg-header-mobile.png');
         background-size: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .logo{
         width: 100px;
@@ -298,7 +298,7 @@ footer .links{
     .keep-track-container{
         padding: 20px;
         width: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .first-section {
         width: 100%;
@@ -309,6 +309,12 @@ footer .links{
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+
+    .no-bg {
+        background-image: none;
+        margin-top: -150px;
+        margin-bottom: -50px;
     }
 
     .second-section img {
@@ -323,7 +329,8 @@ footer .links{
         margin: 60px 0 0;
     }
     .access-clipboard-container{
-        margin-bottom: -50px;
+        margin-bottom: -80px;
+        margin-top: -80px;
     }
 
     .access-clipboard-container div {
@@ -353,6 +360,7 @@ footer .links{
     
     footer {
         flex-direction: column;
+        margin-top:30px ;
     }
     
     footer .footer-item{
