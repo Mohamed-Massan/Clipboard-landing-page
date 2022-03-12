@@ -366,4 +366,9 @@ footer .links{
     .footer .links{
         width: 50%;
     }
+    
+    .links a{
+        margin: 0 20px;
+    }
+    
 }
