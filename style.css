@@ -265,14 +265,15 @@ footer .links{
 
 
 
-@media (max-width:450px) {
+@media (max-width:940px) {
+    body{
+        background-color: aqua;
+
+    }
     .hero-container{
-        padding: 20px;
-        height: 100vh;
-        width: 100vw;
-        background-image: url('images/bg-header-mobile.png');
         background-size: 100%;
         margin-bottom: 50px;
+        padding: 20px;
     }
     .logo{
         width: 100px;
@@ -289,10 +290,26 @@ footer .links{
         width: 100%;
         height: fit-content;
     }
+    .btn-container{
+        width: 100%;
+    }
 
     .btn {
-        width: 90%;
+        width: 45%;
         height: 55px;
+        
+    }
+
+    .supercharger-text-container{
+        flex-wrap: wrap;
+    }
+
+    .supercharger-text {
+        width: 40%;
+        margin: 0 20px;
+    }
+    .access-clipboard-container div {
+        width: 100%;
     }
 
     .keep-track-container{
@@ -300,6 +317,7 @@ footer .links{
         width: 100%;
         margin-bottom: 50px;
     }
+
     .first-section {
         width: 100%;
     }
@@ -310,13 +328,6 @@ footer .links{
         align-items: center;
         width: 100%;
     }
-
-    .no-bg {
-        background-image: none;
-        margin-top: -180px;
-        margin-bottom: -80px;
-    }
-
     .second-section img {
         width: 100%;
         padding: 0 20px;
@@ -349,6 +360,31 @@ footer .links{
         margin: 60px 0 0;
         padding: 0 20px;
 
+
+
+}
+
+
+
+@media (max-width:450px) {
+    .hero-container{
+        height: 100vh;
+        width: 100vw;
+        background-image: url('images/bg-header-mobile.png');
+    }
+    .btn {
+        width: 90%;
+        height: 55px;
+    }
+
+    .no-bg {
+        background-image: none;
+        margin-top: -150px;
+        margin-bottom: -150px;
+    }
+
+    
+
     }
     .logos-container {
         flex-direction: column;
@@ -360,7 +396,7 @@ footer .links{
     
     footer {
         flex-direction: column;
-        margin-top:30px ;
+        padding-bottom: 3px;
     }
     
     footer .footer-item{
@@ -368,7 +404,7 @@ footer .links{
 
     }
     .center div a {
-        
+
         margin: 10px;
         width: 200px;
         text-align: center;
@@ -381,5 +417,4 @@ footer .links{
     .links a{
         margin: 0 20px;
     }
-    
 }
