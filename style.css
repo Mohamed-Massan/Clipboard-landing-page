@@ -269,6 +269,7 @@ footer .links{
     .hero-container{
         padding: 20px;
         height: 100vh;
+        width: 100vw;
         background-image: url('images/bg-header-mobile.png');
         margin-bottom: 100px;
     }
