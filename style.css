@@ -266,10 +266,6 @@ footer .links{
 
 
 @media (max-width:940px) {
-    body{
-        background-color: aqua;
-
-    }
     .hero-container{
         background-size: 100%;
         margin-bottom: 50px;
